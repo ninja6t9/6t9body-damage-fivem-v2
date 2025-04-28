@@ -1,30 +1,47 @@
--- client.lua
 local lastHealth = 0
 
 local bones = {
     ["HEAD"] = 31086,
-    ["SKULL"] = 31086,
-    ["SKULL_1"] = 31086,
-    ["SKULL_2"] = 31086,
-    ["SKULL_3"] = 31086,
-    ["SKULL_4"] = 31086,
-    ["SKULL_5"] = 31086,
-    ["SKULL_6"] = 31086,
-    ["SKULL_7"] = 31086,
-    ["SKULL_8"] = 31086,
-    ["SKULL_9"] = 31086,
-    ["SKULL_10"] = 31086,
+        ["SKULL"] = 12844,
+        ["SKULL_1"] = 39317,--neck
+        ["SKULL_2"] = 65068,
+        ["SKULL_3"] = ,
+        ["SKULL_4"] = ,
+        ["SKULL_5"] = ,
+        ["SKULL_6"] = ,
+        ["SKULL_7"] = ,
+        ["SKULL_8"] = ,
+        ["SKULL_9"] = ,
+        ["SKULL_10"] = ,
+
     ["UPPER_BODY"] = 24816,
+
     ["LOWER_BODY"] = 11816,
+
     ["LEFT_ARM"] = 61163,
+
+
     ["RIGHT_ARM"] = 18905,
+
     ["LEFT_LEG"] = 36864,
+
     ["RIGHT_LEG"] = 52301,
+
 }
 
 local damageMultipliers = {
     [bones.HEAD] = 0.5,
-    [Skull] = 0.5,
+    [bones.Skull] = 0.5,
+    [bones.SKULL_1] = 0.5,
+    [bones.SKULL_2] = 0.5,
+    [bones.SKULL_3] = 0.5,
+    [bones.SKULL_4] = 0.5,
+    [bones.SKULL_5] = 0.5,
+    [bones.SKULL_6] = 0.5,
+    [bones.SKULL_7] = 0.5,
+    [bones.SKULL_8] = 0.5,
+    [bones.SKULL_9] = 0.5,
+    [bones.SKULL_10] = 0.5,
     [bones.UPPER_BODY] = 1.0,
     [bones.LOWER_BODY] = 0.8,
     [bones.LEFT_ARM] = 0.6,
