@@ -15,7 +15,16 @@ local bones = {
         ["SKULL_10"] = ,
 
     ["UPPER_BODY"] = 24816,
-
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
+        ["UPPER_BODY"] = 24816,
     ["LOWER_BODY"] = 11816,
 
     ["LEFT_ARM"] = 61163,
