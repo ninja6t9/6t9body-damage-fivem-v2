@@ -1,18 +1,18 @@
 local lastHealth = 0
 
 local bones = {
-    ["HEAD"] = 31086,
-        ["SKULL"] = 12844,
+    ["HEAD"] = 31086,--skull
+        ["SKULL"] = 12844,--head
         ["SKULL_1"] = 39317,--neck
-        ["SKULL_2"] = 65068,
-        ["SKULL_3"] = ,
-        ["SKULL_4"] = ,
-        ["SKULL_5"] = ,
-        ["SKULL_6"] = ,
-        ["SKULL_7"] = ,
-        ["SKULL_8"] = ,
-        ["SKULL_9"] = ,
-        ["SKULL_10"] = ,
+        ["SKULL_2"] = 65068,--Jaw
+        ["SKULL_3"] = 25260,--left eye
+        ["SKULL_4"] = 27474,--right eye
+        ["SKULL_5"] = 6442,--left ear
+        ["SKULL_6"] = 10706,--right ear
+        ["SKULL_7"] = 35731,--Nose
+        ["SKULL_8"] = 17188,--Upper Teeth
+        ["SKULL_9"] = 44268,---Lower Teeth
+        ["SKULL_10"] = 37193,--Forehead
 
     ["UPPER_BODY"] = 24816,
         ["UPPER_BODY"] = 24816,
@@ -28,13 +28,28 @@ local bones = {
     ["LOWER_BODY"] = 11816,
 
     ["LEFT_ARM"] = 61163,
-
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
 
     ["RIGHT_ARM"] = 18905,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
 
     ["LEFT_LEG"] = 36864,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
 
     ["RIGHT_LEG"] = 52301,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
+        ["LOWER_BODY"] = 11816,
 
 }
 
@@ -52,6 +67,16 @@ local damageMultipliers = {
         [bones.SKULL_9] = 0.5,
         [bones.SKULL_10] = 0.5,
     [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
+        [bones.UPPER_BODY] = 1.0,
     [bones.LOWER_BODY] = 0.8,
     [bones.LEFT_ARM] = 0.6,
     [bones.RIGHT_ARM] = 0.6,
