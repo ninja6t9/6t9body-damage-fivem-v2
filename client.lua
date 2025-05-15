@@ -1,18 +1,18 @@
 local lastHealth = 0
 
 local bones = {
-    ["skull"] = 31086,--skull
-        ["head"] = 12844,--head
-        ["neck"] = 39317,--neck
-        ["Jaw"] = 65068,--Jaw
-        ["LEFT_EYE"] = 25260,--left eye
-        ["RIGHT_EYE"] = 27474,--right eye
-        ["LEFT_EAR"] = 6442,--left ear
-        ["RIGHT_EAR"] = 10706,--right ear
-        ["NOSE"] = 35731,--Nose
-        ["SKULL_8"] = 17188,--Upper Teeth
-        ["SKULL_9"] = 44268,---Lower Teeth
-        ["SKULL_10"] = 37193,--Forehead
+    ["skull"]               = 31086,    --skull
+        ["head"]            = 12844,    --head
+        ["neck"]            = 39317,    --neck
+        ["Jaw"]             = 65068,    --Jaw
+        ["LEFT_EYE"]        = 25260,    --left eye
+        ["RIGHT_EYE"]       = 27474,    --right eye
+        ["LEFT_EAR"]        = 6442,     --left ear
+        ["RIGHT_EAR"]       = 10706,    --right ear
+        ["NOSE"]            = 35731,    --Nose
+        ["UPPER_TEETH"]     = 17188,    --Upper Teeth
+        ["LOWER_TEETH"]     = 44268,    ---Lower Teeth
+        ["FOREHEAD"]        = 37193,    --Forehead
 
     ["UPPER_BODY"] = 24816,
         ["UPPER_BODY"] = 24816,
