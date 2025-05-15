@@ -2,7 +2,7 @@ local lastHealth = 0
 
 local bones = {
     ["skull"] = 31086,--skull
-        ["SKULL"] = 12844,--head
+        ["head"] = 12844,--head
         ["SKULL_1"] = 39317,--neck
         ["SKULL_2"] = 65068,--Jaw
         ["SKULL_3"] = 25260,--left eye
@@ -55,7 +55,7 @@ local bones = {
 
 local damageMultipliers = {
     [bones.skull] = 0.5,
-        [bones.Skull] = 0.5,
+        [bones.head] = 0.5,
         [bones.SKULL_1] = 0.5,
         [bones.SKULL_2] = 0.5,
         [bones.SKULL_3] = 0.5,
