@@ -55,7 +55,7 @@ local bones = {
 
 local damageMultipliers = {
     [bones.skull]           = 2.0,
-        [bones.head]        = 2.0,
+        [bones.head]        = 0.1,
         [bones.neck]        = 2.0,
         [bones.Jaw]         = 2.0,
         [bones.LEFT_EYE]    = 2.0,
